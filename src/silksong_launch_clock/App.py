@@ -110,9 +110,9 @@ class App(tk.Tk):
 
             self.after(1000, lambda: self.countdown_timer())
         else:
-            self.timer_var.set(f"Silksong has launched!!!!!!!!!!")
             self.time_color_to_green()
 
-    def time_color_to_green(self):
+    def game_launched(self):
+        self.timer_var.set(f"Silksong has launched!!!!!!!!!!")
         self.time_label.config(foreground="green")
         messagebox.showinfo("Launched on Steam!", "Silksong has launched on Steam")
