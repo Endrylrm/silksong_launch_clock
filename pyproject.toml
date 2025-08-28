@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "silksong-launch-clock"
+version = "0.1.0"
+description = "a clock to check if silksong has launched on steam."
+authors = ["Endryl Richard Monteiro <endrylrm@hotmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.14"
+pillow = ">=11.3.0,<12.0.0"
+pystray = ">=0.19.5,<0.20.0"
+
+[tool.poetry.group.dev.dependencies]
+nuitka = "^2.7.13"
+
+[tool.poetry.scripts]
+build-nuitka = "build:Build_Nuitka"
+main = "src.main:main"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
