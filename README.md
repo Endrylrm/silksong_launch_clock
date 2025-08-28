@@ -2,7 +2,7 @@
 
 a simple clock to check if silksong has launched on steam, built using tkinter, pillow (for images in tkinter) and pystray (System tray).
 
-When the game launchs on steam on september 4, you will receive a message box notification at exactly 14:00 UTC.
+When the game launches on steam on september 4, you will receive a message box notification at exactly 14:00 UTC.
 
 # Dependencies:
 - tkinter
