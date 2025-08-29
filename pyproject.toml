@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "silksong-launch-clock"
-version = "0.1.0"
+version = "0.1.1"
 description = "a clock to check if silksong has launched on steam."
 authors = ["Endryl Richard Monteiro <endrylrm@hotmail.com>"]
 license = "MIT"
